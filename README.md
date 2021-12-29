@@ -11,3 +11,9 @@ O que aprendemos:
 - Definir a quantidade das linhas
 - Dizer para os elementos onde devem começar e terminar
 - Definir espaçamento entre linhas e colunas
+- Que é possível haver um grid dentro de outro
+- Calcular largura
+- Centralizar conteúdo
+- Adicionar bordar
+- Aplicar estilo no hover do mouse
+- Adicionar símbolo de copyright
