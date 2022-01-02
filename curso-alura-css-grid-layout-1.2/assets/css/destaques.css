@@ -6,7 +6,7 @@
 
 .destaques {
     display: grid;
-    grid-gap: .3rem;
+    grid-gap: .2rem;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 33.33% 33.33% 33.33%;
     height: calc(100vh - 50px);
@@ -17,51 +17,31 @@
     color: #fdfdfd;
     padding: .6rem;
     text-align: center;
-    width: 100%
+    width: 100%;
 }
 
 .destaques__principal {
-    background-image: url("../img/fortnite.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    background: url('../img/fortnite.jpg') center / cover no-repeat;
+    grid-row: 1 / 3;
 }
 
 .destaques__secundario:nth-child(2) {
     background: url('../img/pubg.jpg') center / cover no-repeat;
-    /*background-position: center;  obs: está onde tem 4 backgroudn pode resumir em cima
-    background-repeat: no-repeat;
-    background-size: cover;*/
-    grid-column: 4 / 4;
-    /*grid-column-end: 4;       obs: está vendo onde tem 4 grid column e row, pode resumir em cima e embaixo */       
-    grid-row: 1 / 1;
-    /*grid-row-end:1;*/
 }
 
 .destaques__secundario:nth-child(3) {
     background: url('../img/slack.png') center / cover no-repeat;
-    grid-column: 4 / 4;
-    grid-row: 2 / 2;
 }
 
 .destaques__secundario:nth-child(4) {
     background: url('../img/whatsapp.png') center / cover no-repeat;
-    grid-column: 4 / 4;
-    grid-row: 3 / 4;
 }
 
 .destaques__secundario:nth-child(5) {
     background: url('../img/cs-go.jpg') center / cover no-repeat;
-    grid-column: 3 / 3;
-    grid-row: 3 / 3;
 }
 
 .destaques__categorias {
-    grid-column: 1 / 3;
     grid-row: 3 / 3;
 }
 

@@ -17,3 +17,5 @@ O que aprendemos:
 - Adicionar bordar
 - Aplicar estilo no hover do mouse
 - Adicionar símbolo de copyright
+- Utilizar media queries para deixar site responsivo
+- Aplicar diferentes regras para diferentes telas 
